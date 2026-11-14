@@ -1,0 +1,6 @@
+{
+  "name": "Santiago Bernabéu 3D",
+  "description": "Interactive 3D architectural render of the renovated Estadio Santiago Bernabéu in Madrid with retractable roof, sweeping stainless-steel louver facade, and 360-degree interior bowl.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
