@@ -70,8 +70,21 @@ export function ControlOverlay({
       {/* Top-Left Minimal Architectural Title Mark & Active View Highlight */}
       <header className="flex items-start justify-between">
         <div className="pointer-events-auto rounded-lg bg-[#0D131F]/88 px-4 py-2.5 border border-white/10 shadow-lg max-w-md">
+          <a
+            href="/"
+            title="Return to Hub"
+            className="inline-flex items-center gap-1.5 text-xs text-amber-400 hover:text-amber-300 font-semibold mb-1 transition-colors cursor-pointer"
+          >
+            ← Return to Hub
+          </a>
           <h1 className="font-display text-base sm:text-lg font-semibold tracking-tight text-slate-50 leading-tight">
-            Estadio Santiago Bernabéu
+            <a
+              href="/"
+              title="Return to Hub"
+              className="hover:text-amber-300 transition-colors cursor-pointer"
+            >
+              Estadio Santiago Bernabéu
+            </a>
           </h1>
           <p className="mt-0.5 text-xs text-slate-300 flex flex-wrap items-center gap-1.5">
             <span>Madrid</span>
